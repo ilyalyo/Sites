@@ -1,7 +1,22 @@
+GIT
+  remote: git://github.com/gjtorikian/html-proofer.git
+  revision: e1c259fc18a083b1f2f1580f0ea5176c72f4fbac
+  ref: e1c259fc18a083b1f2f1580f0ea5176c72f4fbac
+  specs:
+    html-proofer (3.7.2)
+      activesupport (>= 4.2, < 6.0)
+      addressable (~> 2.3)
+      colored (~> 1.2)
+      mercenary (~> 0.3.2)
+      nokogiri (~> 1.7)
+      parallel (~> 1.3)
+      typhoeus (~> 0.7)
+      yell (~> 2.0)
+
 PATH
   remote: .
   specs:
-    lightning_sites (1.1.1)
+    lightning_sites (1.2.1)
       colorize (~> 0.8)
       html-proofer (>= 3.7.2)
       html-proofer-mailto_awesome (~> 0.1.2)
@@ -13,7 +28,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.1.1)
+    activesupport (5.1.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
       minitest (~> 5.1)
@@ -27,28 +42,19 @@ GEM
     ethon (0.10.1)
       ffi (>= 1.3.0)
     ffi (1.9.18)
-    html-proofer (3.7.2)
-      activesupport (>= 4.2, < 6.0)
-      addressable (~> 2.3)
-      colored (~> 1.2)
-      mercenary (~> 0.3.2)
-      nokogiri (~> 1.7)
-      parallel (~> 1.3)
-      typhoeus (~> 0.7)
-      yell (~> 2.0)
     html-proofer-mailto_awesome (0.1.3)
       html-proofer (~> 3.0, >= 3.0.0)
       rake (~> 12.0, >= 12.0.0)
-    i18n (0.8.1)
+    i18n (0.8.6)
     json (2.1.0)
     json-schema (2.8.0)
       addressable (>= 2.4)
     mercenary (0.3.6)
     mini_portile2 (2.1.0)
-    minitest (5.10.2)
+    minitest (5.10.3)
     nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
-    parallel (1.11.2)
+    parallel (1.12.0)
     public_suffix (2.0.5)
     rake (12.0.0)
     rspec (3.6.0)
@@ -87,6 +93,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.14)
+  html-proofer!
   lightning_sites!
   rspec (~> 3.0)
 
